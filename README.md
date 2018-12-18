@@ -1,11 +1,11 @@
 # masternode-script
-Ballast Masternode Setup Guide (Ubuntu 16.04)
-This guide will assist you in setting up a Ballast Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
+# Ballast Masternode Setup Guide (Ubuntu 16.04)
+# This guide will assist you in setting up a Ballast Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
 
-If you require further assistance contact the support team @ Discord
+#If you require further assistance contact the support team @ Discord
 
-Requirements
-Current amount of BLST required to run a masternode.
+# Requirements
+# Current amount of BLST required to run a masternode.
 A Vultr VPS running Linux Ubuntu 16.04.
 A Windows local wallet.
 An SSH client such as Bitvise
