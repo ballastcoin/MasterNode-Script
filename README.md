@@ -1,16 +1,16 @@
 # masternode-script
-# Ballast Masternode Setup Guide (Ubuntu 16.04)
-# This guide will assist you in setting up a Ballast Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
+Ballast Masternode Setup Guide (Ubuntu 16.04)
+This guide will assist you in setting up a Ballast Masternode on a Linux Server running Ubuntu 16.04. (Use at your own risk)
 
-#If you require further assistance contact the support team @ Discord
+If you require further assistance contact the support team @ Discord
 
 # Requirements
-# Current amount of BLST required to run a masternode.
+Current amount of BLST required to run a masternode.
 A Vultr VPS running Linux Ubuntu 16.04.
 A Windows local wallet.
 An SSH client such as Bitvise
 
-Contents
+# Contents
 Section A: Creating the VPS within Vultr.
 Section B: Downloading and installing Bitvise.
 Section C: Connecting to the VPS and installing the MN script via Bitvise.
@@ -18,7 +18,7 @@ Section D: Preparing the local wallet.
 Section E: Connecting & Starting the masternode.
 
 
-Section A: Creating the VPS within Vultr
+# Section A: Creating the VPS within Vultr
 Step 1
 Register at Vultr
 Step 2
@@ -36,7 +36,7 @@ Click "Deploy now"
 
 
 
-Section B: Downloading and installing BitVise.
+# Section B: Downloading and installing BitVise.
 Step 1
 Download Bitvise https://www.bitvise.com/ssh-client-download
 Step 2
@@ -44,7 +44,7 @@ Select the correct installer depending upon your operating system. Then follow t
 
 
 
-Section C: Connecting to the VPS & Installing the MN script via Bitvise.
+# Section C: Connecting to the VPS & Installing the MN script via Bitvise.
 Step 1
 Copy your VPS IP (you can find this by going to the server tab within Vultr and clicking on your server)
 Step 2
@@ -72,7 +72,7 @@ Keep this terminal open as we will need the info for the wallet setup. Example-i
 
 
 
-Section D: Preparing the Local wallet
+# Section D: Preparing the Local wallet
 Step 1
 Download and install the Ballast wallet here https://github.com/ballastcoin/ballast/releases/tag/v2
 Step 2
@@ -90,7 +90,7 @@ Paste these into the text document you created earlier as you will need them in 
 
 
 
-Section E: Connecting & Starting the masternode
+# Section E: Connecting & Starting the masternode
 Step 1
 Go to the tools tab within the wallet and click open "masternode configuration file"
 Step 2
@@ -111,5 +111,3 @@ ballast-cli masternode status
 
 acr-cli getinfo
 *You should see status 4 or 9
-
-If you do, congratulations! You have now setup a masternode. If you do not, please contact support and they will assist you.
